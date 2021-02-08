@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Kaushan Script', cursive;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background-color:#ef7aac;
+    border-radius: 20px;
+}
+
+#menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100vw;
+    padding: 10px 30px 15px 25px;
+    margin-bottom: 0;
+}
+#menu img{
+    margin-right: 30vw;
+}
+#menu a{
+    text-decoration: none;
+    color:#ef7aac;
+    font-size: 25px;
+    margin-right:1vw ;
+}
+#menu i{
+    margin-left:30vw;
+    margin-right:1vw ;
+}
+#menu span{
+    margin-right:5vw ;
+}
+#menu button {
+    background-color: transparent;
+    font-family: 'Kaushan Script', cursive;
+    border: solid black 2px;
+    border-radius: 5%;
+    align-items: center;
+    padding: 7px;
+    font-size: 15px;
+    cursor: pointer;
+}
+#menu button i{
+    margin: 0;
+    margin-right:10px ;
+}
+#main{
+    background:url("header-background.jpeg"),#ffeebb;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100vw;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 93vh;
+    justify-content: center;
+    align-items: center;
+}
+#content{
+    font-size: 40px;
+    width: 70vw;
+    padding-bottom:80px ;
+    text-align: center;
+    align-items: center;
+    color: #ffffff;
+}
+#content h1{
+    color:#ef7aac;
+    display: inline-block;
+    margin-bottom: 0;
+}
+#content button{
+    background: transparent;
+    font-family: 'Kaushan Script', cursive;
+    border: 3px solid black;
+    border-radius:7% ;
+    width: 135px;
+    height: 45px;
+    padding: 0;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+#info{
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+#aboutUs{
+    width: 25vw;
+    height: 40vh;
+    color:#878a8a;
+    margin-left: 10vw;
+}
+#aboutUs h1{
+    color:#ef7aac;
+    display: inline-block;
+    font-size: 45px;
+    margin-bottom: 0;
+}
+#aboutUs h3{
+    display: inline-block;
+    font-size: 30px;
+    color: black;
+    margin-bottom: 0;
+}
+#aboutUs button{
+    background: transparent;
+    font-family: 'Kaushan Script', cursive;
+    border: 2px solid black;
+    border-radius:7% ;
+    width: 95px;
+    height: 30px;
+    padding: 0;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 15px;
+    cursor: pointer;
+}
+#picture{
+    width: 25vw;
+    height: 40vh;
+    border:#f7db87 6px solid;
+    margin-right: 10vw;
+}
+#picture img{
+    width: 25vw;
+    height: 40vh;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#bot{
+    width: 100vw;
+    height: 35vh;
+    background-color: #eeeeee;
+    text-align: center;
+    align-items:baseline;
+}
+#bot h1{
+    color:#ef7aac;
+    display: inline-block;
+    font-size: 45px;
+    margin-bottom: 0;
+}
+#bot h3{
+    display: inline-block;
+    font-size: 30px;
+    color: black;
+    margin-bottom: 0;
+}
+.bot-button{
+    background: transparent;
+    font-family: 'Kaushan Script', cursive;
+    border: 2px solid #3a3a3a;
+    border-radius:7% ;
+    height: 30px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+#bot div{
+    display: inline-block;
+}
+.bot-search{
+    position: relative;
+    border: 1px solid  #b6b6b6;
+    border-right: none;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+    width: 35px;
+    height: 35px;
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+    background-color:#ef7998;
+    margin-top: 15px;
+}
+#bot input{
+    position: relative;
+    font-family: 'Kaushan Script', cursive;
+    height: 35px;
+    width: 400px;
+    border: 1px solid  #b6b6b6;
+    border-top-right-radius: 2%;
+    border-bottom-right-radius: 2%;
+    padding: 10px;
+}
